@@ -1,3 +1,3 @@
 # WebDevClass
-Labs for Web Devolopment Class.
+Labs for Web Development Class.
 Contains Files created to solve assignments.
