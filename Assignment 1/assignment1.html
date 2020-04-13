@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Assignment 1</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="assignment1.css" />
+</head>
+
+<body>
+   <header>
+      <h1>Share Your Travels</h1>
+      <p>let us know where you've been</p>
+   </header>
+   <main>
+      <section>
+         <form class="" action="http://www.randyconnolly.com/tests/process.php" method="post">
+            <fieldset>
+               <legend>Photo Details</legend>
+               <table>
+                  <tr>
+
+                     <Label>Title:</Label>
+                     <p>
+                        <input type="text" name="title" class="text" />
+                     </p>
+
+                  </tr>
+
+                  <Label>Description:</Label>
+                  <p>
+                     <textarea name="description" rows="5" id="desc"></textarea>
+                  </p>
+
+                  </tr>
+
+                  <tr>
+                     <td>
+                        <div id="loc-container">
+
+                           <div id="location">
+                              <p>Continent</p>
+                              <select name="continent">
+                                 <option value="North America">North America</option>
+                                 <option value="South America">South America</option>
+                                 <option value="Europe">Europe</option>
+                                 <option value="Africa">Africa</option>
+                                 <option value="Austrila"> Austrila</option>
+                                 <option value="Asia">Asia</option>
+                              </select>
+
+                              <p>Country</p>
+                              <select name="country">
+                                 <option>Canada</option>
+                                 <option>Brazil</option>
+                                 <option>USA</option>
+                                 <option>Mexico</option>
+                                 <option>United Kingdom</option>
+                                 <option>Spain</option>
+                                 <option>China</option>
+                                 <option>Costa Rica</option>>
+                              </select>
+
+                              <p>City</p>
+                              <input type="text" name="city">
+                           </div>
+
+
+                           <div id="copyright_info">
+                              <div id="copyright">
+                                 <p>Copyright?</p>
+                                 <input type="radio" name="copyright" value="1"> All rights reserved <br>
+                                 <input type="radio" name="copyright" value="2"> Creative Commons
+                              </div>
+                              <div id="creat">
+                                 <p>Creative Commons Types</p>
+
+                                 <input type="checkbox" name="cc[]" value="1">Attribution <br>
+                                 <input type="checkbox" name="cc[]" value="2">Noncommercial <br>
+                                 <input type="checkbox" name="cc[]" value="3">No Derivative Works
+                              </div>
+                           </div>
+
+                        </div>
+                     </td>
+
+                  </tr>
+
+                  <tr>
+                     <td>
+
+                        <div id="agree">
+                           <p>I accept the software license</p><input type="checkbox" name="accept" value="on"
+                              unchecked />
+                        </div>
+
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td>
+                        <div id="photo_properties">
+                           <div id="photo">
+                              <p>Rate this photo:</p>
+                              <input type="text" name="rate">
+                              <p>Color Collection:</p>
+                              <input type="color" name="color">
+                           </div>
+                           <div id="date_time">
+                              <p>Date Taken:</p>
+                              <input type="text" name="date_1">
+                              <p>Time Taken:</p>
+                              <input type="text" name="time_1">
+                           </div>
+                        </div>
+                     </td>
+                  </tr>
+
+
+                  <tr>
+                     <td>
+                        <p id="con">
+
+                           <input type="submit" class="button"> <button type="button" name="Clear Form"
+                              class="button">Clear Form</button>
+                        </p>
+                     </td>
+                  </tr>
+
+               </table>
+            </fieldset>
+         </form>
+
+
+
+
+      </section>
+   </main>
+
+
+</body>
+
+</html>
